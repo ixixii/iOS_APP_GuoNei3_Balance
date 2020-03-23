@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		307E72742427664F00E6ADA7 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 307E72732427664F00E6ADA7 /* appicon.png */; };
+		307E727B24277F7200E6ADA7 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E727A24277F7200E6ADA7 /* MyNavigationController.m */; };
+		307E727E2427849300E6ADA7 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E727D2427849300E6ADA7 /* UIImage+Color.m */; };
+		307E728224278B9E00E6ADA7 /* FamilyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E728124278B9E00E6ADA7 /* FamilyViewController.m */; };
+		307E728424278BA700E6ADA7 /* navi_add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 307E728324278BA700E6ADA7 /* navi_add@3x.png */; };
+		307E72882427AFAF00E6ADA7 /* BalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72862427AFAF00E6ADA7 /* BalanceViewController.m */; };
+		307E728B2427B37E00E6ADA7 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72892427B37D00E6ADA7 /* MineViewController.m */; };
+		307E72952427B6DA00E6ADA7 /* KITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307E72932427B6DA00E6ADA7 /* KITableViewCell.xib */; };
+		307E72962427B6DA00E6ADA7 /* KITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72942427B6DA00E6ADA7 /* KITableViewCell.m */; };
+		307E729B2427B8DE00E6ADA7 /* feedback@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 307E72972427B8DE00E6ADA7 /* feedback@3x.png */; };
+		307E729C2427B8DE00E6ADA7 /* cache@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 307E72982427B8DE00E6ADA7 /* cache@3x.png */; };
+		307E729D2427B8DE00E6ADA7 /* setting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 307E72992427B8DE00E6ADA7 /* setting@3x.png */; };
+		307E729E2427B8DE00E6ADA7 /* kefu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 307E729A2427B8DE00E6ADA7 /* kefu@3x.png */; };
+		307E72A02427B95F00E6ADA7 /* logout@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 307E729F2427B95F00E6ADA7 /* logout@3x.png */; };
+		307E72A22427B9BB00E6ADA7 /* remind@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 307E72A12427B9BB00E6ADA7 /* remind@3x.png */; };
+		307E72A42427BA8500E6ADA7 /* message@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 307E72A32427BA8500E6ADA7 /* message@3x.png */; };
+		307E72A62427BB7E00E6ADA7 /* about@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 307E72A52427BB7E00E6ADA7 /* about@3x.png */; };
+		307E72A92427BBEF00E6ADA7 /* KIHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72A82427BBEF00E6ADA7 /* KIHeadView.m */; };
+		307E72AB2427BC0800E6ADA7 /* KIHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307E72AA2427BC0800E6ADA7 /* KIHeadView.xib */; };
+		307E72B02427C04700E6ADA7 /* KIFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72AE2427C04700E6ADA7 /* KIFeedbackViewController.m */; };
+		307E72B12427C04700E6ADA7 /* KIFeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307E72AF2427C04700E6ADA7 /* KIFeedbackViewController.xib */; };
+		307E72BE2427C6F800E6ADA7 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72B42427C6F800E6ADA7 /* SVRadialGradientLayer.m */; };
+		307E72BF2427C6F800E6ADA7 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72B72427C6F800E6ADA7 /* MBProgressHUD+NJ.m */; };
+		307E72C02427C6F800E6ADA7 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72BB2427C6F800E6ADA7 /* SVProgressHUD.m */; };
+		307E72C12427C6F800E6ADA7 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72BC2427C6F800E6ADA7 /* SVIndefiniteAnimatedView.m */; };
+		307E72C22427C6F800E6ADA7 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 307E72BD2427C6F800E6ADA7 /* SVProgressHUD.bundle */; };
+		307E72C72427C89500E6ADA7 /* KIAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72C52427C89500E6ADA7 /* KIAboutViewController.m */; };
+		307E72C82427C89500E6ADA7 /* KIAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307E72C62427C89500E6ADA7 /* KIAboutViewController.xib */; };
+		30BA5CEA2427CFA0002A4AAC /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA5CE82427CFA0002A4AAC /* UIAlertView+Block.m */; };
+		30BA5CEF2427D9BB002A4AAC /* KILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA5CED2427D9BB002A4AAC /* KILoginViewController.m */; };
+		30BA5CF02427D9BB002A4AAC /* KILoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30BA5CEE2427D9BB002A4AAC /* KILoginViewController.xib */; };
+		30BA5CF22427DB0A002A4AAC /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 30BA5CF12427DB0A002A4AAC /* background.png */; };
+		30BA5CF52427E223002A4AAC /* KITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA5CF42427E223002A4AAC /* KITextField.m */; };
+		30BA5CFA2427E9EE002A4AAC /* KIRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA5CF72427E9EE002A4AAC /* KIRegisterViewController.m */; };
+		30BA5CFB2427E9EE002A4AAC /* KIRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30BA5CF82427E9EE002A4AAC /* KIRegisterViewController.xib */; };
+		30BA5D012428F4A8002A4AAC /* KIPrivacyViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA5CFD2428F4A8002A4AAC /* KIPrivacyViewCtrl.m */; };
+		30BA5D022428F4A8002A4AAC /* close_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30BA5CFE2428F4A8002A4AAC /* close_btn@3x.png */; };
+		30BA5D032428F4A8002A4AAC /* KIPrivacyViewCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30BA5CFF2428F4A8002A4AAC /* KIPrivacyViewCtrl.xib */; };
+		30DB89A92424F85B005F7328 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DB89A82424F85B005F7328 /* AppDelegate.m */; };
+		30DB89AC2424F85B005F7328 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DB89AB2424F85B005F7328 /* SceneDelegate.m */; };
+		30DB89B52424F85B005F7328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DB89B32424F85B005F7328 /* Main.storyboard */; };
+		30DB89B72424F85D005F7328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DB89B62424F85D005F7328 /* Assets.xcassets */; };
+		30DB89BA2424F85D005F7328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DB89B82424F85D005F7328 /* LaunchScreen.storyboard */; };
+		30DB89BD2424F85D005F7328 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DB89BC2424F85D005F7328 /* main.m */; };
+		918F0D1994FD37FEF2F141C9 /* libPods-kibatina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 488D432AD9770A3FD5837EDC /* libPods-kibatina.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		186238EB5506D3FECAB0F709 /* Pods-kibatina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kibatina.debug.xcconfig"; path = "Target Support Files/Pods-kibatina/Pods-kibatina.debug.xcconfig"; sourceTree = "<group>"; };
+		307E72732427664F00E6ADA7 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+		307E727924277F7200E6ADA7 /* MyNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		307E727A24277F7200E6ADA7 /* MyNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		307E727C2427849300E6ADA7 /* UIImage+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		307E727D2427849300E6ADA7 /* UIImage+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		307E728024278B9E00E6ADA7 /* FamilyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyViewController.h; sourceTree = "<group>"; };
+		307E728124278B9E00E6ADA7 /* FamilyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyViewController.m; sourceTree = "<group>"; };
+		307E728324278BA700E6ADA7 /* navi_add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_add@3x.png"; sourceTree = "<group>"; };
+		307E72862427AFAF00E6ADA7 /* BalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceViewController.m; sourceTree = "<group>"; };
+		307E72872427AFAF00E6ADA7 /* BalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceViewController.h; sourceTree = "<group>"; };
+		307E72892427B37D00E6ADA7 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		307E728A2427B37D00E6ADA7 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		307E72922427B6DA00E6ADA7 /* KITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KITableViewCell.h; sourceTree = "<group>"; };
+		307E72932427B6DA00E6ADA7 /* KITableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KITableViewCell.xib; sourceTree = "<group>"; };
+		307E72942427B6DA00E6ADA7 /* KITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KITableViewCell.m; sourceTree = "<group>"; };
+		307E72972427B8DE00E6ADA7 /* feedback@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feedback@3x.png"; sourceTree = "<group>"; };
+		307E72982427B8DE00E6ADA7 /* cache@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cache@3x.png"; sourceTree = "<group>"; };
+		307E72992427B8DE00E6ADA7 /* setting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting@3x.png"; sourceTree = "<group>"; };
+		307E729A2427B8DE00E6ADA7 /* kefu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kefu@3x.png"; sourceTree = "<group>"; };
+		307E729F2427B95F00E6ADA7 /* logout@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout@3x.png"; sourceTree = "<group>"; };
+		307E72A12427B9BB00E6ADA7 /* remind@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "remind@3x.png"; sourceTree = "<group>"; };
+		307E72A32427BA8500E6ADA7 /* message@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message@3x.png"; sourceTree = "<group>"; };
+		307E72A52427BB7E00E6ADA7 /* about@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@3x.png"; sourceTree = "<group>"; };
+		307E72A72427BBEF00E6ADA7 /* KIHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIHeadView.h; sourceTree = "<group>"; };
+		307E72A82427BBEF00E6ADA7 /* KIHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIHeadView.m; sourceTree = "<group>"; };
+		307E72AA2427BC0800E6ADA7 /* KIHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KIHeadView.xib; sourceTree = "<group>"; };
+		307E72AD2427C04700E6ADA7 /* KIFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIFeedbackViewController.h; sourceTree = "<group>"; };
+		307E72AE2427C04700E6ADA7 /* KIFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIFeedbackViewController.m; sourceTree = "<group>"; };
+		307E72AF2427C04700E6ADA7 /* KIFeedbackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KIFeedbackViewController.xib; sourceTree = "<group>"; };
+		307E72B42427C6F800E6ADA7 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		307E72B52427C6F800E6ADA7 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		307E72B62427C6F800E6ADA7 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		307E72B72427C6F800E6ADA7 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
+		307E72B82427C6F800E6ADA7 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		307E72B92427C6F800E6ADA7 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		307E72BA2427C6F800E6ADA7 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
+		307E72BB2427C6F800E6ADA7 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		307E72BC2427C6F800E6ADA7 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		307E72BD2427C6F800E6ADA7 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		307E72C42427C89500E6ADA7 /* KIAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIAboutViewController.h; sourceTree = "<group>"; };
+		307E72C52427C89500E6ADA7 /* KIAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIAboutViewController.m; sourceTree = "<group>"; };
+		307E72C62427C89500E6ADA7 /* KIAboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KIAboutViewController.xib; sourceTree = "<group>"; };
+		30BA5CE82427CFA0002A4AAC /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
+		30BA5CE92427CFA0002A4AAC /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
+		30BA5CEC2427D9BB002A4AAC /* KILoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KILoginViewController.h; sourceTree = "<group>"; };
+		30BA5CED2427D9BB002A4AAC /* KILoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KILoginViewController.m; sourceTree = "<group>"; };
+		30BA5CEE2427D9BB002A4AAC /* KILoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KILoginViewController.xib; sourceTree = "<group>"; };
+		30BA5CF12427DB0A002A4AAC /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		30BA5CF32427E223002A4AAC /* KITextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KITextField.h; sourceTree = "<group>"; };
+		30BA5CF42427E223002A4AAC /* KITextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KITextField.m; sourceTree = "<group>"; };
+		30BA5CF72427E9EE002A4AAC /* KIRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIRegisterViewController.m; sourceTree = "<group>"; };
+		30BA5CF82427E9EE002A4AAC /* KIRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KIRegisterViewController.xib; sourceTree = "<group>"; };
+		30BA5CF92427E9EE002A4AAC /* KIRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIRegisterViewController.h; sourceTree = "<group>"; };
+		30BA5CFD2428F4A8002A4AAC /* KIPrivacyViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIPrivacyViewCtrl.m; sourceTree = "<group>"; };
+		30BA5CFE2428F4A8002A4AAC /* close_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_btn@3x.png"; sourceTree = "<group>"; };
+		30BA5CFF2428F4A8002A4AAC /* KIPrivacyViewCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KIPrivacyViewCtrl.xib; sourceTree = "<group>"; };
+		30BA5D002428F4A8002A4AAC /* KIPrivacyViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIPrivacyViewCtrl.h; sourceTree = "<group>"; };
+		30DB89A42424F85B005F7328 /* kibatina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kibatina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DB89A72424F85B005F7328 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30DB89A82424F85B005F7328 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30DB89AA2424F85B005F7328 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		30DB89AB2424F85B005F7328 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		30DB89B42424F85B005F7328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30DB89B62424F85D005F7328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30DB89B92424F85D005F7328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30DB89BB2424F85D005F7328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DB89BC2424F85D005F7328 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		488D432AD9770A3FD5837EDC /* libPods-kibatina.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kibatina.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15526E49257862928F1DDF /* Pods-kibatina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kibatina.release.xcconfig"; path = "Target Support Files/Pods-kibatina/Pods-kibatina.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30DB89A12424F85B005F7328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918F0D1994FD37FEF2F141C9 /* libPods-kibatina.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A52273E69AED01EEE8991C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				488D432AD9770A3FD5837EDC /* libPods-kibatina.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		307E727524276A8300E6ADA7 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				307E728A2427B37D00E6ADA7 /* MineViewController.h */,
+				307E72892427B37D00E6ADA7 /* MineViewController.m */,
+				307E72C32427C87F00E6ADA7 /* 关于 */,
+				307E72AC2427C02A00E6ADA7 /* 反馈 */,
+				307E72912427B6DA00E6ADA7 /* Table */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		307E727824277F4800E6ADA7 /* 导航控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				307E727924277F7200E6ADA7 /* MyNavigationController.h */,
+				307E727A24277F7200E6ADA7 /* MyNavigationController.m */,
+				307E727C2427849300E6ADA7 /* UIImage+Color.h */,
+				307E727D2427849300E6ADA7 /* UIImage+Color.m */,
+			);
+			path = "导航控制器";
+			sourceTree = "<group>";
+		};
+		307E727F24278B8600E6ADA7 /* 家人 */ = {
+			isa = PBXGroup;
+			children = (
+				307E728324278BA700E6ADA7 /* navi_add@3x.png */,
+				307E728024278B9E00E6ADA7 /* FamilyViewController.h */,
+				307E728124278B9E00E6ADA7 /* FamilyViewController.m */,
+			);
+			path = "家人";
+			sourceTree = "<group>";
+		};
+		307E72852427AFAF00E6ADA7 /* 收支 */ = {
+			isa = PBXGroup;
+			children = (
+				307E72862427AFAF00E6ADA7 /* BalanceViewController.m */,
+				307E72872427AFAF00E6ADA7 /* BalanceViewController.h */,
+			);
+			path = "收支";
+			sourceTree = "<group>";
+		};
+		307E72912427B6DA00E6ADA7 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				307E72A52427BB7E00E6ADA7 /* about@3x.png */,
+				307E72A32427BA8500E6ADA7 /* message@3x.png */,
+				307E72A12427B9BB00E6ADA7 /* remind@3x.png */,
+				307E729F2427B95F00E6ADA7 /* logout@3x.png */,
+				307E72982427B8DE00E6ADA7 /* cache@3x.png */,
+				307E72972427B8DE00E6ADA7 /* feedback@3x.png */,
+				307E729A2427B8DE00E6ADA7 /* kefu@3x.png */,
+				307E72992427B8DE00E6ADA7 /* setting@3x.png */,
+				307E72922427B6DA00E6ADA7 /* KITableViewCell.h */,
+				307E72932427B6DA00E6ADA7 /* KITableViewCell.xib */,
+				307E72942427B6DA00E6ADA7 /* KITableViewCell.m */,
+				307E72A72427BBEF00E6ADA7 /* KIHeadView.h */,
+				307E72A82427BBEF00E6ADA7 /* KIHeadView.m */,
+				307E72AA2427BC0800E6ADA7 /* KIHeadView.xib */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		307E72AC2427C02A00E6ADA7 /* 反馈 */ = {
+			isa = PBXGroup;
+			children = (
+				307E72AD2427C04700E6ADA7 /* KIFeedbackViewController.h */,
+				307E72AE2427C04700E6ADA7 /* KIFeedbackViewController.m */,
+				307E72AF2427C04700E6ADA7 /* KIFeedbackViewController.xib */,
+			);
+			path = "反馈";
+			sourceTree = "<group>";
+		};
+		307E72B22427C6F800E6ADA7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				30BA5CE92427CFA0002A4AAC /* UIAlertView+Block.h */,
+				30BA5CE82427CFA0002A4AAC /* UIAlertView+Block.m */,
+				307E72B32427C6F800E6ADA7 /* SVProgressHUD */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		307E72B32427C6F800E6ADA7 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				307E72B42427C6F800E6ADA7 /* SVRadialGradientLayer.m */,
+				307E72B52427C6F800E6ADA7 /* SVIndefiniteAnimatedView.h */,
+				307E72B62427C6F800E6ADA7 /* SVProgressHUD.h */,
+				307E72B72427C6F800E6ADA7 /* MBProgressHUD+NJ.m */,
+				307E72B82427C6F800E6ADA7 /* SVProgressHUD-Prefix.pch */,
+				307E72B92427C6F800E6ADA7 /* SVRadialGradientLayer.h */,
+				307E72BA2427C6F800E6ADA7 /* MBProgressHUD+NJ.h */,
+				307E72BB2427C6F800E6ADA7 /* SVProgressHUD.m */,
+				307E72BC2427C6F800E6ADA7 /* SVIndefiniteAnimatedView.m */,
+				307E72BD2427C6F800E6ADA7 /* SVProgressHUD.bundle */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		307E72C32427C87F00E6ADA7 /* 关于 */ = {
+			isa = PBXGroup;
+			children = (
+				307E72C42427C89500E6ADA7 /* KIAboutViewController.h */,
+				307E72C52427C89500E6ADA7 /* KIAboutViewController.m */,
+				307E72C62427C89500E6ADA7 /* KIAboutViewController.xib */,
+			);
+			path = "关于";
+			sourceTree = "<group>";
+		};
+		30BA5CEB2427D953002A4AAC /* 登陆 */ = {
+			isa = PBXGroup;
+			children = (
+				30BA5CFC2428F3B1002A4AAC /* 隐私 */,
+				30BA5CF62427E9EE002A4AAC /* 注册 */,
+				30BA5CF12427DB0A002A4AAC /* background.png */,
+				30BA5CEC2427D9BB002A4AAC /* KILoginViewController.h */,
+				30BA5CED2427D9BB002A4AAC /* KILoginViewController.m */,
+				30BA5CEE2427D9BB002A4AAC /* KILoginViewController.xib */,
+				30BA5CF32427E223002A4AAC /* KITextField.h */,
+				30BA5CF42427E223002A4AAC /* KITextField.m */,
+			);
+			path = "登陆";
+			sourceTree = "<group>";
+		};
+		30BA5CF62427E9EE002A4AAC /* 注册 */ = {
+			isa = PBXGroup;
+			children = (
+				30BA5CF92427E9EE002A4AAC /* KIRegisterViewController.h */,
+				30BA5CF72427E9EE002A4AAC /* KIRegisterViewController.m */,
+				30BA5CF82427E9EE002A4AAC /* KIRegisterViewController.xib */,
+			);
+			path = "注册";
+			sourceTree = "<group>";
+		};
+		30BA5CFC2428F3B1002A4AAC /* 隐私 */ = {
+			isa = PBXGroup;
+			children = (
+				30BA5CFE2428F4A8002A4AAC /* close_btn@3x.png */,
+				30BA5D002428F4A8002A4AAC /* KIPrivacyViewCtrl.h */,
+				30BA5CFD2428F4A8002A4AAC /* KIPrivacyViewCtrl.m */,
+				30BA5CFF2428F4A8002A4AAC /* KIPrivacyViewCtrl.xib */,
+			);
+			path = "隐私";
+			sourceTree = "<group>";
+		};
+		30DB899B2424F85B005F7328 = {
+			isa = PBXGroup;
+			children = (
+				30DB89A62424F85B005F7328 /* kibatina */,
+				30DB89A52424F85B005F7328 /* Products */,
+				45213E1BDCFB2D74C940B410 /* Pods */,
+				08A52273E69AED01EEE8991C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30DB89A52424F85B005F7328 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30DB89A42424F85B005F7328 /* kibatina.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30DB89A62424F85B005F7328 /* kibatina */ = {
+			isa = PBXGroup;
+			children = (
+				30BA5CEB2427D953002A4AAC /* 登陆 */,
+				307E72B22427C6F800E6ADA7 /* Tools */,
+				307E72852427AFAF00E6ADA7 /* 收支 */,
+				307E727F24278B8600E6ADA7 /* 家人 */,
+				307E727824277F4800E6ADA7 /* 导航控制器 */,
+				307E727524276A8300E6ADA7 /* 我的 */,
+				307E72732427664F00E6ADA7 /* appicon.png */,
+				30DB89A72424F85B005F7328 /* AppDelegate.h */,
+				30DB89A82424F85B005F7328 /* AppDelegate.m */,
+				30DB89AA2424F85B005F7328 /* SceneDelegate.h */,
+				30DB89AB2424F85B005F7328 /* SceneDelegate.m */,
+				30DB89B32424F85B005F7328 /* Main.storyboard */,
+				30DB89B62424F85D005F7328 /* Assets.xcassets */,
+				30DB89B82424F85D005F7328 /* LaunchScreen.storyboard */,
+				30DB89BB2424F85D005F7328 /* Info.plist */,
+				30DB89BC2424F85D005F7328 /* main.m */,
+			);
+			path = kibatina;
+			sourceTree = "<group>";
+		};
+		45213E1BDCFB2D74C940B410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				186238EB5506D3FECAB0F709 /* Pods-kibatina.debug.xcconfig */,
+				DA15526E49257862928F1DDF /* Pods-kibatina.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30DB89A32424F85B005F7328 /* kibatina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30DB89C02424F85D005F7328 /* Build configuration list for PBXNativeTarget "kibatina" */;
+			buildPhases = (
+				7275DC8AFF17D55A5D821224 /* [CP] Check Pods Manifest.lock */,
+				30DB89A02424F85B005F7328 /* Sources */,
+				30DB89A12424F85B005F7328 /* Frameworks */,
+				30DB89A22424F85B005F7328 /* Resources */,
+				3C876C893E59CDEF9E8093DE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kibatina;
+			productName = kibatina;
+			productReference = 30DB89A42424F85B005F7328 /* kibatina.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30DB899C2424F85B005F7328 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = beyond;
+				TargetAttributes = {
+					30DB89A32424F85B005F7328 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 30DB899F2424F85B005F7328 /* Build configuration list for PBXProject "kibatina" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30DB899B2424F85B005F7328;
+			productRefGroup = 30DB89A52424F85B005F7328 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30DB89A32424F85B005F7328 /* kibatina */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30DB89A22424F85B005F7328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307E72AB2427BC0800E6ADA7 /* KIHeadView.xib in Resources */,
+				30BA5CF22427DB0A002A4AAC /* background.png in Resources */,
+				30BA5CFB2427E9EE002A4AAC /* KIRegisterViewController.xib in Resources */,
+				307E729D2427B8DE00E6ADA7 /* setting@3x.png in Resources */,
+				307E72C22427C6F800E6ADA7 /* SVProgressHUD.bundle in Resources */,
+				307E728424278BA700E6ADA7 /* navi_add@3x.png in Resources */,
+				307E72C82427C89500E6ADA7 /* KIAboutViewController.xib in Resources */,
+				307E729E2427B8DE00E6ADA7 /* kefu@3x.png in Resources */,
+				307E72A62427BB7E00E6ADA7 /* about@3x.png in Resources */,
+				307E72B12427C04700E6ADA7 /* KIFeedbackViewController.xib in Resources */,
+				307E72952427B6DA00E6ADA7 /* KITableViewCell.xib in Resources */,
+				307E72742427664F00E6ADA7 /* appicon.png in Resources */,
+				30BA5CF02427D9BB002A4AAC /* KILoginViewController.xib in Resources */,
+				30BA5D022428F4A8002A4AAC /* close_btn@3x.png in Resources */,
+				307E72A22427B9BB00E6ADA7 /* remind@3x.png in Resources */,
+				30DB89BA2424F85D005F7328 /* LaunchScreen.storyboard in Resources */,
+				307E72A42427BA8500E6ADA7 /* message@3x.png in Resources */,
+				30DB89B72424F85D005F7328 /* Assets.xcassets in Resources */,
+				30DB89B52424F85B005F7328 /* Main.storyboard in Resources */,
+				30BA5D032428F4A8002A4AAC /* KIPrivacyViewCtrl.xib in Resources */,
+				307E729C2427B8DE00E6ADA7 /* cache@3x.png in Resources */,
+				307E729B2427B8DE00E6ADA7 /* feedback@3x.png in Resources */,
+				307E72A02427B95F00E6ADA7 /* logout@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C876C893E59CDEF9E8093DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kibatina/Pods-kibatina-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kibatina/Pods-kibatina-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kibatina/Pods-kibatina-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7275DC8AFF17D55A5D821224 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kibatina-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30DB89A02424F85B005F7328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307E72C72427C89500E6ADA7 /* KIAboutViewController.m in Sources */,
+				30BA5CEA2427CFA0002A4AAC /* UIAlertView+Block.m in Sources */,
+				30BA5D012428F4A8002A4AAC /* KIPrivacyViewCtrl.m in Sources */,
+				307E72962427B6DA00E6ADA7 /* KITableViewCell.m in Sources */,
+				30DB89BD2424F85D005F7328 /* main.m in Sources */,
+				30BA5CF52427E223002A4AAC /* KITextField.m in Sources */,
+				307E727B24277F7200E6ADA7 /* MyNavigationController.m in Sources */,
+				307E72C02427C6F800E6ADA7 /* SVProgressHUD.m in Sources */,
+				30BA5CEF2427D9BB002A4AAC /* KILoginViewController.m in Sources */,
+				307E72B02427C04700E6ADA7 /* KIFeedbackViewController.m in Sources */,
+				307E72C12427C6F800E6ADA7 /* SVIndefiniteAnimatedView.m in Sources */,
+				307E728224278B9E00E6ADA7 /* FamilyViewController.m in Sources */,
+				307E72BF2427C6F800E6ADA7 /* MBProgressHUD+NJ.m in Sources */,
+				30DB89A92424F85B005F7328 /* AppDelegate.m in Sources */,
+				30BA5CFA2427E9EE002A4AAC /* KIRegisterViewController.m in Sources */,
+				307E727E2427849300E6ADA7 /* UIImage+Color.m in Sources */,
+				307E72BE2427C6F800E6ADA7 /* SVRadialGradientLayer.m in Sources */,
+				307E72A92427BBEF00E6ADA7 /* KIHeadView.m in Sources */,
+				30DB89AC2424F85B005F7328 /* SceneDelegate.m in Sources */,
+				307E72882427AFAF00E6ADA7 /* BalanceViewController.m in Sources */,
+				307E728B2427B37E00E6ADA7 /* MineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30DB89B32424F85B005F7328 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30DB89B42424F85B005F7328 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30DB89B82424F85D005F7328 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30DB89B92424F85D005F7328 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30DB89BE2424F85D005F7328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30DB89BF2424F85D005F7328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30DB89C12424F85D005F7328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 186238EB5506D3FECAB0F709 /* Pods-kibatina.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = N7NJC6YLRV;
+				INFOPLIST_FILE = kibatina/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.vwhm.shinchan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = net_vwhm_shinchan_dev_20200312;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		30DB89C22424F85D005F7328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA15526E49257862928F1DDF /* Pods-kibatina.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = N7NJC6YLRV;
+				INFOPLIST_FILE = kibatina/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.vwhm.shinchan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = net_vwhm_shinchan_dev_20200312;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30DB899F2424F85B005F7328 /* Build configuration list for PBXProject "kibatina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DB89BE2424F85D005F7328 /* Debug */,
+				30DB89BF2424F85D005F7328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30DB89C02424F85D005F7328 /* Build configuration list for PBXNativeTarget "kibatina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DB89C12424F85D005F7328 /* Debug */,
+				30DB89C22424F85D005F7328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30DB899C2424F85B005F7328 /* Project object */;
+}

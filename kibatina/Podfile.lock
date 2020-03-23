@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManager (6.5.0)
+  - MBProgressHUD (0.9.2)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - MBProgressHUD (~> 0.9.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - IQKeyboardManager
+    - MBProgressHUD
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 700e5155d6a292383b54e8678aec769e14fc78fc
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+
+PODFILE CHECKSUM: 57a433e585480a6b5f971ecb4f47f72abd07c66a
+
+COCOAPODS: 1.8.4
