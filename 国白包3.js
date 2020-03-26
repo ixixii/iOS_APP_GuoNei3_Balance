@@ -230,7 +230,7 @@ todo list 9: 尾声，上传项目源代码到git
 
 git init
 git add --all
-git commit -m 'iOS 国内区白包3 家庭收支管理 第一次提交'
+git commit -m 'iOS 国内区白包3 家庭收支管理 第一次提交 框架搭建（含登陆、注册、我的）'
 git remote add origin https://github.com/ixixii/iOS_APP_GuoNei3_Balance.git
 git push -u origin master
 git push origin master

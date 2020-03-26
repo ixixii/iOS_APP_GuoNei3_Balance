@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3044FE7A242CFA9C0018128D /* SomeoneBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3044FE79242CFA9C0018128D /* SomeoneBalanceViewController.m */; };
+		3064182C24297DB100197164 /* family_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3064182B24297DB100197164 /* family_banner.jpg */; };
+		3064182F24297DC800197164 /* KIFamilyHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3064182E24297DC800197164 /* KIFamilyHeadView.m */; };
+		3064183124297DD600197164 /* KIFamilyHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3064183024297DD600197164 /* KIFamilyHeadView.xib */; };
+		3064183524297ED800197164 /* KIFamilyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3064183324297ED800197164 /* KIFamilyTableViewCell.m */; };
+		3064183624297ED800197164 /* KIFamilyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3064183424297ED800197164 /* KIFamilyTableViewCell.xib */; };
+		30641838242A43C600197164 /* btn_trash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30641837242A43C600197164 /* btn_trash@3x.png */; };
+		3064183D242A459C00197164 /* KIAddFamilyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3064183B242A459C00197164 /* KIAddFamilyViewController.m */; };
+		3064183E242A459C00197164 /* KIAddFamilyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3064183C242A459C00197164 /* KIAddFamilyViewController.xib */; };
+		30641846242B6C7100197164 /* KIBalanceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30641844242B6C7100197164 /* KIBalanceTableViewCell.m */; };
+		30641847242B6C7100197164 /* KIBalanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30641845242B6C7100197164 /* KIBalanceTableViewCell.xib */; };
+		30641849242B6F1200197164 /* balance_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 30641848242B6F1200197164 /* balance_banner.png */; };
+		3064184B242B719300197164 /* balance_banner2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3064184A242B719300197164 /* balance_banner2.png */; };
+		3064184D242B723400197164 /* balance_banner3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3064184C242B723400197164 /* balance_banner3.png */; };
+		3064184F242B734B00197164 /* balance_banner4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3064184E242B734B00197164 /* balance_banner4.png */; };
+		30641854242B893800197164 /* KIAddBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30641852242B893800197164 /* KIAddBalanceViewController.m */; };
+		30641855242B893800197164 /* KIAddBalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30641853242B893800197164 /* KIAddBalanceViewController.xib */; };
+		30641858242BA25A00197164 /* CZPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30641856242BA25A00197164 /* CZPickerView.m */; };
+		3064185A242BA63B00197164 /* arrow_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30641859242BA63B00197164 /* arrow_right@3x.png */; };
 		307E72742427664F00E6ADA7 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 307E72732427664F00E6ADA7 /* appicon.png */; };
 		307E727B24277F7200E6ADA7 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E727A24277F7200E6ADA7 /* MyNavigationController.m */; };
 		307E727E2427849300E6ADA7 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E727D2427849300E6ADA7 /* UIImage+Color.m */; };
@@ -56,6 +75,32 @@
 
 /* Begin PBXFileReference section */
 		186238EB5506D3FECAB0F709 /* Pods-kibatina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kibatina.debug.xcconfig"; path = "Target Support Files/Pods-kibatina/Pods-kibatina.debug.xcconfig"; sourceTree = "<group>"; };
+		3044FE78242CFA9C0018128D /* SomeoneBalanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeoneBalanceViewController.h; sourceTree = "<group>"; };
+		3044FE79242CFA9C0018128D /* SomeoneBalanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeoneBalanceViewController.m; sourceTree = "<group>"; };
+		3064182B24297DB100197164 /* family_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = family_banner.jpg; sourceTree = "<group>"; };
+		3064182D24297DC800197164 /* KIFamilyHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIFamilyHeadView.h; sourceTree = "<group>"; };
+		3064182E24297DC800197164 /* KIFamilyHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIFamilyHeadView.m; sourceTree = "<group>"; };
+		3064183024297DD600197164 /* KIFamilyHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KIFamilyHeadView.xib; sourceTree = "<group>"; };
+		3064183224297ED800197164 /* KIFamilyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIFamilyTableViewCell.h; sourceTree = "<group>"; };
+		3064183324297ED800197164 /* KIFamilyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIFamilyTableViewCell.m; sourceTree = "<group>"; };
+		3064183424297ED800197164 /* KIFamilyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KIFamilyTableViewCell.xib; sourceTree = "<group>"; };
+		30641837242A43C600197164 /* btn_trash@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_trash@3x.png"; sourceTree = "<group>"; };
+		3064183A242A459C00197164 /* KIAddFamilyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIAddFamilyViewController.h; sourceTree = "<group>"; };
+		3064183B242A459C00197164 /* KIAddFamilyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIAddFamilyViewController.m; sourceTree = "<group>"; };
+		3064183C242A459C00197164 /* KIAddFamilyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KIAddFamilyViewController.xib; sourceTree = "<group>"; };
+		30641843242B6C7100197164 /* KIBalanceTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIBalanceTableViewCell.h; sourceTree = "<group>"; };
+		30641844242B6C7100197164 /* KIBalanceTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIBalanceTableViewCell.m; sourceTree = "<group>"; };
+		30641845242B6C7100197164 /* KIBalanceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KIBalanceTableViewCell.xib; sourceTree = "<group>"; };
+		30641848242B6F1200197164 /* balance_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balance_banner.png; sourceTree = "<group>"; };
+		3064184A242B719300197164 /* balance_banner2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balance_banner2.png; sourceTree = "<group>"; };
+		3064184C242B723400197164 /* balance_banner3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balance_banner3.png; sourceTree = "<group>"; };
+		3064184E242B734B00197164 /* balance_banner4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balance_banner4.png; sourceTree = "<group>"; };
+		30641851242B893800197164 /* KIAddBalanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIAddBalanceViewController.h; sourceTree = "<group>"; };
+		30641852242B893800197164 /* KIAddBalanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIAddBalanceViewController.m; sourceTree = "<group>"; };
+		30641853242B893800197164 /* KIAddBalanceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KIAddBalanceViewController.xib; sourceTree = "<group>"; };
+		30641856242BA25A00197164 /* CZPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZPickerView.m; sourceTree = "<group>"; };
+		30641857242BA25A00197164 /* CZPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZPickerView.h; sourceTree = "<group>"; };
+		30641859242BA63B00197164 /* arrow_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_right@3x.png"; sourceTree = "<group>"; };
 		307E72732427664F00E6ADA7 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 		307E727924277F7200E6ADA7 /* MyNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
 		307E727A24277F7200E6ADA7 /* MyNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
@@ -147,6 +192,65 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3044FE77242CFA7C0018128D /* 某人收支 */ = {
+			isa = PBXGroup;
+			children = (
+				3044FE78242CFA9C0018128D /* SomeoneBalanceViewController.h */,
+				3044FE79242CFA9C0018128D /* SomeoneBalanceViewController.m */,
+			);
+			path = "某人收支";
+			sourceTree = "<group>";
+		};
+		3064182A24297DB100197164 /* FamilyTable */ = {
+			isa = PBXGroup;
+			children = (
+				30641837242A43C600197164 /* btn_trash@3x.png */,
+				3064182B24297DB100197164 /* family_banner.jpg */,
+				3064182D24297DC800197164 /* KIFamilyHeadView.h */,
+				3064182E24297DC800197164 /* KIFamilyHeadView.m */,
+				3064183024297DD600197164 /* KIFamilyHeadView.xib */,
+				3064183224297ED800197164 /* KIFamilyTableViewCell.h */,
+				3064183324297ED800197164 /* KIFamilyTableViewCell.m */,
+				3064183424297ED800197164 /* KIFamilyTableViewCell.xib */,
+			);
+			path = FamilyTable;
+			sourceTree = "<group>";
+		};
+		30641839242A458000197164 /* 新增家人 */ = {
+			isa = PBXGroup;
+			children = (
+				3064183A242A459C00197164 /* KIAddFamilyViewController.h */,
+				3064183B242A459C00197164 /* KIAddFamilyViewController.m */,
+				3064183C242A459C00197164 /* KIAddFamilyViewController.xib */,
+			);
+			path = "新增家人";
+			sourceTree = "<group>";
+		};
+		30641842242B6C5400197164 /* BalanceTable */ = {
+			isa = PBXGroup;
+			children = (
+				3064184E242B734B00197164 /* balance_banner4.png */,
+				3064184C242B723400197164 /* balance_banner3.png */,
+				3064184A242B719300197164 /* balance_banner2.png */,
+				30641848242B6F1200197164 /* balance_banner.png */,
+				30641843242B6C7100197164 /* KIBalanceTableViewCell.h */,
+				30641844242B6C7100197164 /* KIBalanceTableViewCell.m */,
+				30641845242B6C7100197164 /* KIBalanceTableViewCell.xib */,
+			);
+			path = BalanceTable;
+			sourceTree = "<group>";
+		};
+		30641850242B891E00197164 /* 新增收支 */ = {
+			isa = PBXGroup;
+			children = (
+				30641859242BA63B00197164 /* arrow_right@3x.png */,
+				30641851242B893800197164 /* KIAddBalanceViewController.h */,
+				30641852242B893800197164 /* KIAddBalanceViewController.m */,
+				30641853242B893800197164 /* KIAddBalanceViewController.xib */,
+			);
+			path = "新增收支";
+			sourceTree = "<group>";
+		};
 		307E727524276A8300E6ADA7 /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +277,8 @@
 		307E727F24278B8600E6ADA7 /* 家人 */ = {
 			isa = PBXGroup;
 			children = (
+				30641839242A458000197164 /* 新增家人 */,
+				3064182A24297DB100197164 /* FamilyTable */,
 				307E728324278BA700E6ADA7 /* navi_add@3x.png */,
 				307E728024278B9E00E6ADA7 /* FamilyViewController.h */,
 				307E728124278B9E00E6ADA7 /* FamilyViewController.m */,
@@ -183,8 +289,11 @@
 		307E72852427AFAF00E6ADA7 /* 收支 */ = {
 			isa = PBXGroup;
 			children = (
-				307E72862427AFAF00E6ADA7 /* BalanceViewController.m */,
+				3044FE77242CFA7C0018128D /* 某人收支 */,
+				30641850242B891E00197164 /* 新增收支 */,
+				30641842242B6C5400197164 /* BalanceTable */,
 				307E72872427AFAF00E6ADA7 /* BalanceViewController.h */,
+				307E72862427AFAF00E6ADA7 /* BalanceViewController.m */,
 			);
 			path = "收支";
 			sourceTree = "<group>";
@@ -223,6 +332,8 @@
 		307E72B22427C6F800E6ADA7 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				30641857242BA25A00197164 /* CZPickerView.h */,
+				30641856242BA25A00197164 /* CZPickerView.m */,
 				30BA5CE92427CFA0002A4AAC /* UIAlertView+Block.h */,
 				30BA5CE82427CFA0002A4AAC /* UIAlertView+Block.m */,
 				307E72B32427C6F800E6ADA7 /* SVProgressHUD */,
@@ -406,25 +517,37 @@
 				30BA5CF22427DB0A002A4AAC /* background.png in Resources */,
 				30BA5CFB2427E9EE002A4AAC /* KIRegisterViewController.xib in Resources */,
 				307E729D2427B8DE00E6ADA7 /* setting@3x.png in Resources */,
+				30641849242B6F1200197164 /* balance_banner.png in Resources */,
 				307E72C22427C6F800E6ADA7 /* SVProgressHUD.bundle in Resources */,
 				307E728424278BA700E6ADA7 /* navi_add@3x.png in Resources */,
+				30641847242B6C7100197164 /* KIBalanceTableViewCell.xib in Resources */,
 				307E72C82427C89500E6ADA7 /* KIAboutViewController.xib in Resources */,
 				307E729E2427B8DE00E6ADA7 /* kefu@3x.png in Resources */,
 				307E72A62427BB7E00E6ADA7 /* about@3x.png in Resources */,
 				307E72B12427C04700E6ADA7 /* KIFeedbackViewController.xib in Resources */,
+				3064184B242B719300197164 /* balance_banner2.png in Resources */,
 				307E72952427B6DA00E6ADA7 /* KITableViewCell.xib in Resources */,
+				3064183124297DD600197164 /* KIFamilyHeadView.xib in Resources */,
+				3064185A242BA63B00197164 /* arrow_right@3x.png in Resources */,
+				30641855242B893800197164 /* KIAddBalanceViewController.xib in Resources */,
 				307E72742427664F00E6ADA7 /* appicon.png in Resources */,
 				30BA5CF02427D9BB002A4AAC /* KILoginViewController.xib in Resources */,
 				30BA5D022428F4A8002A4AAC /* close_btn@3x.png in Resources */,
+				3064183624297ED800197164 /* KIFamilyTableViewCell.xib in Resources */,
+				3064183E242A459C00197164 /* KIAddFamilyViewController.xib in Resources */,
+				3064184D242B723400197164 /* balance_banner3.png in Resources */,
 				307E72A22427B9BB00E6ADA7 /* remind@3x.png in Resources */,
 				30DB89BA2424F85D005F7328 /* LaunchScreen.storyboard in Resources */,
 				307E72A42427BA8500E6ADA7 /* message@3x.png in Resources */,
 				30DB89B72424F85D005F7328 /* Assets.xcassets in Resources */,
+				3064184F242B734B00197164 /* balance_banner4.png in Resources */,
 				30DB89B52424F85B005F7328 /* Main.storyboard in Resources */,
+				30641838242A43C600197164 /* btn_trash@3x.png in Resources */,
 				30BA5D032428F4A8002A4AAC /* KIPrivacyViewCtrl.xib in Resources */,
 				307E729C2427B8DE00E6ADA7 /* cache@3x.png in Resources */,
 				307E729B2427B8DE00E6ADA7 /* feedback@3x.png in Resources */,
 				307E72A02427B95F00E6ADA7 /* logout@3x.png in Resources */,
+				3064182C24297DB100197164 /* family_banner.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,23 +604,30 @@
 				30BA5CEA2427CFA0002A4AAC /* UIAlertView+Block.m in Sources */,
 				30BA5D012428F4A8002A4AAC /* KIPrivacyViewCtrl.m in Sources */,
 				307E72962427B6DA00E6ADA7 /* KITableViewCell.m in Sources */,
+				3044FE7A242CFA9C0018128D /* SomeoneBalanceViewController.m in Sources */,
+				3064182F24297DC800197164 /* KIFamilyHeadView.m in Sources */,
 				30DB89BD2424F85D005F7328 /* main.m in Sources */,
+				30641858242BA25A00197164 /* CZPickerView.m in Sources */,
 				30BA5CF52427E223002A4AAC /* KITextField.m in Sources */,
 				307E727B24277F7200E6ADA7 /* MyNavigationController.m in Sources */,
 				307E72C02427C6F800E6ADA7 /* SVProgressHUD.m in Sources */,
+				30641846242B6C7100197164 /* KIBalanceTableViewCell.m in Sources */,
 				30BA5CEF2427D9BB002A4AAC /* KILoginViewController.m in Sources */,
 				307E72B02427C04700E6ADA7 /* KIFeedbackViewController.m in Sources */,
 				307E72C12427C6F800E6ADA7 /* SVIndefiniteAnimatedView.m in Sources */,
 				307E728224278B9E00E6ADA7 /* FamilyViewController.m in Sources */,
 				307E72BF2427C6F800E6ADA7 /* MBProgressHUD+NJ.m in Sources */,
+				30641854242B893800197164 /* KIAddBalanceViewController.m in Sources */,
 				30DB89A92424F85B005F7328 /* AppDelegate.m in Sources */,
 				30BA5CFA2427E9EE002A4AAC /* KIRegisterViewController.m in Sources */,
 				307E727E2427849300E6ADA7 /* UIImage+Color.m in Sources */,
 				307E72BE2427C6F800E6ADA7 /* SVRadialGradientLayer.m in Sources */,
 				307E72A92427BBEF00E6ADA7 /* KIHeadView.m in Sources */,
 				30DB89AC2424F85B005F7328 /* SceneDelegate.m in Sources */,
+				3064183D242A459C00197164 /* KIAddFamilyViewController.m in Sources */,
 				307E72882427AFAF00E6ADA7 /* BalanceViewController.m in Sources */,
 				307E728B2427B37E00E6ADA7 /* MineViewController.m in Sources */,
+				3064183524297ED800197164 /* KIFamilyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,18 +768,18 @@
 			baseConfigurationReference = 186238EB5506D3FECAB0F709 /* Pods-kibatina.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N7NJC6YLRV;
 				INFOPLIST_FILE = kibatina/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.vwhm.shinchan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg31.kibatina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = net_vwhm_shinchan_dev_20200312;
+				PROVISIONING_PROFILE_SPECIFIER = com_sg31_kibatina_dis_20200326;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -659,18 +789,18 @@
 			baseConfigurationReference = DA15526E49257862928F1DDF /* Pods-kibatina.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N7NJC6YLRV;
 				INFOPLIST_FILE = kibatina/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.vwhm.shinchan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg31.kibatina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = net_vwhm_shinchan_dev_20200312;
+				PROVISIONING_PROFILE_SPECIFIER = com_sg31_kibatina_dis_20200326;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

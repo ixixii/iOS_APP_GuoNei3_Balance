@@ -41,9 +41,12 @@
                     <navigationItem key="navigationItem" title="家人列表" id="6vH-Ao-3Z3">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="rxe-yg-cZB">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vVe-Jl-vSe">
-                                <rect key="frame" x="-23" y="-15" width="24" height="24"/>
+                                <rect key="frame" x="311" y="0.0" width="48" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="navi_add"/>
+                                <connections>
+                                    <action selector="addBtnClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="o1Z-3j-2t1"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
@@ -143,9 +146,12 @@
                     <navigationItem key="navigationItem" title="收支列表" id="oY4-Bu-mc0">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="mnf-QZ-d0i">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ea0-zI-CLI">
-                                <rect key="frame" x="335" y="10" width="24" height="24"/>
+                                <rect key="frame" x="311" y="0.0" width="48" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="navi_add"/>
+                                <connections>
+                                    <action selector="addBtnClicked:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="IYJ-6y-RUW"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>

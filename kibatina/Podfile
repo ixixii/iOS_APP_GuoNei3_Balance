@@ -22,4 +22,5 @@ target "kibatina" do
 #    pod 'UMengSocial', '~> 5.0'
 #    pod 'UMengSocialCOM', '~> 5.2.1'
 #    pod 'SDCycleScrollView','~> 1.75'
+	 pod 'CXDatePickerView'
 end

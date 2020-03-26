@@ -69,11 +69,10 @@
 - (IBAction)sendBtnClicked:(UIButton *)sender
 {
     if(self.xib_textView.text.length > 0 && ![self.xib_textView.text isEqualToString:@"请输入您的意见和建议"]){
-        
+        [self.view endEditing:YES];
         [MBProgressHUD showMessage:@"提交中。。。"];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            
-            
+            [MBProgressHUD hideHUD];
             [MBProgressHUD showSuccess:@"提交成功！"];
             __weak __typeof__(self) weakSelf = self;
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{

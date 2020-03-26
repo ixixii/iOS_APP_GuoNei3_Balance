@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="KIFamilyHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="family_banner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5Oh-LZ-mIN">
+                    <rect key="frame" x="0.0" y="20" width="414" height="180"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="5Oh-LZ-mIN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="CEj-q6-H3w"/>
+                <constraint firstItem="5Oh-LZ-mIN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="VpG-e6-MGc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5Oh-LZ-mIN" secondAttribute="trailing" id="cie-DT-Jna"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="5Oh-LZ-mIN" secondAttribute="bottom" id="sVH-Gt-sog"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="xib_imgView_banner" destination="5Oh-LZ-mIN" id="c0d-ED-dRH"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="307.70089285714283"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="family_banner.jpg" width="688" height="453"/>
+    </resources>
+</document>

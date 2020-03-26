@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [_xib_textField_tel becomeFirstResponder];
 }
 
 /*
@@ -43,6 +44,7 @@
 }
 - (void)registerBtnClicked:(UIButton *)sender
 {
+    [self.view endEditing:YES];
     // 检查输入
     if(_xib_textField_tel.text.length == 0){
         [MBProgressHUD showError:@"手机号不能为空"];

@@ -15,7 +15,11 @@
 @end
 
 @implementation KILoginViewController
-
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [_xib_textField_tel becomeFirstResponder];
+}
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
@@ -52,6 +56,7 @@
 */
 - (void)loginBtnClicked:(UIButton *)sender
 {
+    [self.view endEditing:YES];
     if(_xib_textField_tel.text.length == 0){
         [MBProgressHUD showError:@"请输入手机号"];
         return;
@@ -61,10 +66,15 @@
         return;
     }
     
+    NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
+    // 打个补丁，如果是beyond,123456，那个保存到本地
+    if([_xib_textField_tel.text isEqualToString:@"beyond"] && [_xib_textField_password.text isEqualToString:@"123456"]){
+        [userDefault setObject:@"beyond" forKey:@"userDefault_tel"];
+        [userDefault setObject:@"123456" forKey:@"userDefault_password"];
+        [userDefault synchronize];
+    }
 //    [self.view endEditing:YES];
     
-    // 根据用户上次选择的,展示
-    NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
     NSString *tel = [userDefault objectForKey:@"userDefault_tel"];
     NSString *password = [userDefault objectForKey:@"userDefault_password"];
     

@@ -10,14 +10,6 @@
 
 @implementation KITextField
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
-
 // 设置leftViewk时，才会执行此方法
 - (CGRect)leftViewRectForBounds:(CGRect)bounds
 {
@@ -34,6 +26,4 @@
 - (CGRect)editingRectForBounds:(CGRect)bounds{
     return CGRectInset(bounds, 45, 0);
 }
-
-
 @end

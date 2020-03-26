@@ -11,6 +11,6 @@
 @interface BalanceViewController : UIViewController
 
 @property (nonatomic,weak) IBOutlet UITabBarItem *xib_tabBarItem;
-
+- (IBAction)addBtnClicked:(UIButton *)sender;
 @end
 
