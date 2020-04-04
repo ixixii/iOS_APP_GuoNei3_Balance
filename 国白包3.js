@@ -1,3 +1,6 @@
+【KIBATINA】- 家庭收支管理
+com.sg31.kitatina
+
 deployment target: 10.3
 直机运行时黑屏，报错：
 [Application] The app delegate must implement the window property if it wants to use a main storyboard file.
@@ -257,3 +260,50 @@ todo list 10: 清理战场
     https://appstoreconnect.apple.com/login
 
     准备登陆下一个账号，写第2个国内白包         
+
+
+======================
+
+mac 修改 host文件
+
+Allenlll
+0.096
+2019.05.31 10:58:30
+字数 46
+阅读 7,388
+1、通过vi打开host文件
+sudo vi /etc/hosts
+
+2、输入i，进入编辑模式
+3、编辑完成后ESC退出编辑
+4、:wq+回车保存
+
+======================
+使用chrome浏览器无法访问github提示不是私密连接且无继续前往选项
+在hosts文件中添加如下内容：
+
+192.30.253.112 github.com
+192.30.253.119 gist.github.com
+151.101.100.133 assets-cdn.github.com
+151.101.100.133 raw.githubusercontent.com
+151.101.100.133 gist.githubusercontent.com
+151.101.100.133 cloud.githubusercontent.com
+151.101.100.133 camo.githubusercontent.com
+151.101.100.133 avatars0.githubusercontent.com
+151.101.100.133 avatars1.githubusercontent.com
+151.101.100.133 avatars2.githubusercontent.com
+151.101.100.133 avatars3.githubusercontent.com
+151.101.100.133 avatars4.githubusercontent.com
+151.101.100.133 avatars5.githubusercontent.com
+151.101.100.133 avatars6.githubusercontent.com
+151.101.100.133 avatars7.githubusercontent.com
+151.101.100.133 avatars8.githubusercontent.com
+
+即可。
+
+关于hosts文件，其作用是包含IP地址和host name(主机名)的映射关系。windows系统下路径为C:\Windows\System32\drivers\etc\hosts，linux系统下为/etc/hosts，没有的话就自己创建一个记事本文件，再把格式后缀删掉，修改时以记事本方式打开即可。    
+
+==========
+1. 移除 MBProgressHUD，  改用KIMessageTool
+2. 移除CZPickerView, 改用UIPickerView + UIButton
+3. 日期选择CXDatePickerView（暂时保留）

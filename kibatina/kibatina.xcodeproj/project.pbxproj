@@ -24,7 +24,6 @@
 		3064184F242B734B00197164 /* balance_banner4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3064184E242B734B00197164 /* balance_banner4.png */; };
 		30641854242B893800197164 /* KIAddBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30641852242B893800197164 /* KIAddBalanceViewController.m */; };
 		30641855242B893800197164 /* KIAddBalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30641853242B893800197164 /* KIAddBalanceViewController.xib */; };
-		30641858242BA25A00197164 /* CZPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30641856242BA25A00197164 /* CZPickerView.m */; };
 		3064185A242BA63B00197164 /* arrow_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30641859242BA63B00197164 /* arrow_right@3x.png */; };
 		307E72742427664F00E6ADA7 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 307E72732427664F00E6ADA7 /* appicon.png */; };
 		307E727B24277F7200E6ADA7 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E727A24277F7200E6ADA7 /* MyNavigationController.m */; };
@@ -47,29 +46,25 @@
 		307E72AB2427BC0800E6ADA7 /* KIHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307E72AA2427BC0800E6ADA7 /* KIHeadView.xib */; };
 		307E72B02427C04700E6ADA7 /* KIFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72AE2427C04700E6ADA7 /* KIFeedbackViewController.m */; };
 		307E72B12427C04700E6ADA7 /* KIFeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307E72AF2427C04700E6ADA7 /* KIFeedbackViewController.xib */; };
-		307E72BE2427C6F800E6ADA7 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72B42427C6F800E6ADA7 /* SVRadialGradientLayer.m */; };
-		307E72BF2427C6F800E6ADA7 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72B72427C6F800E6ADA7 /* MBProgressHUD+NJ.m */; };
-		307E72C02427C6F800E6ADA7 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72BB2427C6F800E6ADA7 /* SVProgressHUD.m */; };
-		307E72C12427C6F800E6ADA7 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72BC2427C6F800E6ADA7 /* SVIndefiniteAnimatedView.m */; };
-		307E72C22427C6F800E6ADA7 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 307E72BD2427C6F800E6ADA7 /* SVProgressHUD.bundle */; };
 		307E72C72427C89500E6ADA7 /* KIAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E72C52427C89500E6ADA7 /* KIAboutViewController.m */; };
 		307E72C82427C89500E6ADA7 /* KIAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 307E72C62427C89500E6ADA7 /* KIAboutViewController.xib */; };
 		30BA5CEA2427CFA0002A4AAC /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA5CE82427CFA0002A4AAC /* UIAlertView+Block.m */; };
 		30BA5CEF2427D9BB002A4AAC /* KILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA5CED2427D9BB002A4AAC /* KILoginViewController.m */; };
 		30BA5CF02427D9BB002A4AAC /* KILoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30BA5CEE2427D9BB002A4AAC /* KILoginViewController.xib */; };
 		30BA5CF22427DB0A002A4AAC /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 30BA5CF12427DB0A002A4AAC /* background.png */; };
-		30BA5CF52427E223002A4AAC /* KITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA5CF42427E223002A4AAC /* KITextField.m */; };
 		30BA5CFA2427E9EE002A4AAC /* KIRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA5CF72427E9EE002A4AAC /* KIRegisterViewController.m */; };
 		30BA5CFB2427E9EE002A4AAC /* KIRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30BA5CF82427E9EE002A4AAC /* KIRegisterViewController.xib */; };
 		30BA5D012428F4A8002A4AAC /* KIPrivacyViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA5CFD2428F4A8002A4AAC /* KIPrivacyViewCtrl.m */; };
 		30BA5D022428F4A8002A4AAC /* close_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30BA5CFE2428F4A8002A4AAC /* close_btn@3x.png */; };
 		30BA5D032428F4A8002A4AAC /* KIPrivacyViewCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30BA5CFF2428F4A8002A4AAC /* KIPrivacyViewCtrl.xib */; };
+		30D586E02436AAD100DDDF6E /* KITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D586DF2436AAD100DDDF6E /* KITextField.m */; };
 		30DB89A92424F85B005F7328 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DB89A82424F85B005F7328 /* AppDelegate.m */; };
 		30DB89AC2424F85B005F7328 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DB89AB2424F85B005F7328 /* SceneDelegate.m */; };
 		30DB89B52424F85B005F7328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DB89B32424F85B005F7328 /* Main.storyboard */; };
 		30DB89B72424F85D005F7328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DB89B62424F85D005F7328 /* Assets.xcassets */; };
 		30DB89BA2424F85D005F7328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DB89B82424F85D005F7328 /* LaunchScreen.storyboard */; };
 		30DB89BD2424F85D005F7328 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DB89BC2424F85D005F7328 /* main.m */; };
+		30FD1C07243757860097DA99 /* KIMessageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FD1C06243757860097DA99 /* KIMessageTool.m */; };
 		918F0D1994FD37FEF2F141C9 /* libPods-kibatina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 488D432AD9770A3FD5837EDC /* libPods-kibatina.a */; };
 /* End PBXBuildFile section */
 
@@ -98,8 +93,6 @@
 		30641851242B893800197164 /* KIAddBalanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIAddBalanceViewController.h; sourceTree = "<group>"; };
 		30641852242B893800197164 /* KIAddBalanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIAddBalanceViewController.m; sourceTree = "<group>"; };
 		30641853242B893800197164 /* KIAddBalanceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KIAddBalanceViewController.xib; sourceTree = "<group>"; };
-		30641856242BA25A00197164 /* CZPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZPickerView.m; sourceTree = "<group>"; };
-		30641857242BA25A00197164 /* CZPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZPickerView.h; sourceTree = "<group>"; };
 		30641859242BA63B00197164 /* arrow_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_right@3x.png"; sourceTree = "<group>"; };
 		307E72732427664F00E6ADA7 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 		307E727924277F7200E6ADA7 /* MyNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
@@ -130,16 +123,6 @@
 		307E72AD2427C04700E6ADA7 /* KIFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIFeedbackViewController.h; sourceTree = "<group>"; };
 		307E72AE2427C04700E6ADA7 /* KIFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIFeedbackViewController.m; sourceTree = "<group>"; };
 		307E72AF2427C04700E6ADA7 /* KIFeedbackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KIFeedbackViewController.xib; sourceTree = "<group>"; };
-		307E72B42427C6F800E6ADA7 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		307E72B52427C6F800E6ADA7 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		307E72B62427C6F800E6ADA7 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
-		307E72B72427C6F800E6ADA7 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
-		307E72B82427C6F800E6ADA7 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
-		307E72B92427C6F800E6ADA7 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		307E72BA2427C6F800E6ADA7 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
-		307E72BB2427C6F800E6ADA7 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
-		307E72BC2427C6F800E6ADA7 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		307E72BD2427C6F800E6ADA7 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		307E72C42427C89500E6ADA7 /* KIAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIAboutViewController.h; sourceTree = "<group>"; };
 		307E72C52427C89500E6ADA7 /* KIAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIAboutViewController.m; sourceTree = "<group>"; };
 		307E72C62427C89500E6ADA7 /* KIAboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KIAboutViewController.xib; sourceTree = "<group>"; };
@@ -149,8 +132,6 @@
 		30BA5CED2427D9BB002A4AAC /* KILoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KILoginViewController.m; sourceTree = "<group>"; };
 		30BA5CEE2427D9BB002A4AAC /* KILoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KILoginViewController.xib; sourceTree = "<group>"; };
 		30BA5CF12427DB0A002A4AAC /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		30BA5CF32427E223002A4AAC /* KITextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KITextField.h; sourceTree = "<group>"; };
-		30BA5CF42427E223002A4AAC /* KITextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KITextField.m; sourceTree = "<group>"; };
 		30BA5CF72427E9EE002A4AAC /* KIRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIRegisterViewController.m; sourceTree = "<group>"; };
 		30BA5CF82427E9EE002A4AAC /* KIRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KIRegisterViewController.xib; sourceTree = "<group>"; };
 		30BA5CF92427E9EE002A4AAC /* KIRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIRegisterViewController.h; sourceTree = "<group>"; };
@@ -158,6 +139,8 @@
 		30BA5CFE2428F4A8002A4AAC /* close_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_btn@3x.png"; sourceTree = "<group>"; };
 		30BA5CFF2428F4A8002A4AAC /* KIPrivacyViewCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KIPrivacyViewCtrl.xib; sourceTree = "<group>"; };
 		30BA5D002428F4A8002A4AAC /* KIPrivacyViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIPrivacyViewCtrl.h; sourceTree = "<group>"; };
+		30D586DE2436AAD100DDDF6E /* KITextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KITextField.h; sourceTree = "<group>"; };
+		30D586DF2436AAD100DDDF6E /* KITextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KITextField.m; sourceTree = "<group>"; };
 		30DB89A42424F85B005F7328 /* kibatina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kibatina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DB89A72424F85B005F7328 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30DB89A82424F85B005F7328 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -168,6 +151,8 @@
 		30DB89B92424F85D005F7328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30DB89BB2424F85D005F7328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30DB89BC2424F85D005F7328 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30FD1C05243757860097DA99 /* KIMessageTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIMessageTool.h; sourceTree = "<group>"; };
+		30FD1C06243757860097DA99 /* KIMessageTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIMessageTool.m; sourceTree = "<group>"; };
 		488D432AD9770A3FD5837EDC /* libPods-kibatina.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kibatina.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15526E49257862928F1DDF /* Pods-kibatina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kibatina.release.xcconfig"; path = "Target Support Files/Pods-kibatina/Pods-kibatina.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -256,9 +241,9 @@
 			children = (
 				307E728A2427B37D00E6ADA7 /* MineViewController.h */,
 				307E72892427B37D00E6ADA7 /* MineViewController.m */,
+				307E72912427B6DA00E6ADA7 /* Table */,
 				307E72C32427C87F00E6ADA7 /* 关于 */,
 				307E72AC2427C02A00E6ADA7 /* 反馈 */,
-				307E72912427B6DA00E6ADA7 /* Table */,
 			);
 			path = "我的";
 			sourceTree = "<group>";
@@ -332,30 +317,12 @@
 		307E72B22427C6F800E6ADA7 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				30641857242BA25A00197164 /* CZPickerView.h */,
-				30641856242BA25A00197164 /* CZPickerView.m */,
 				30BA5CE92427CFA0002A4AAC /* UIAlertView+Block.h */,
 				30BA5CE82427CFA0002A4AAC /* UIAlertView+Block.m */,
-				307E72B32427C6F800E6ADA7 /* SVProgressHUD */,
+				30FD1C05243757860097DA99 /* KIMessageTool.h */,
+				30FD1C06243757860097DA99 /* KIMessageTool.m */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		307E72B32427C6F800E6ADA7 /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				307E72B42427C6F800E6ADA7 /* SVRadialGradientLayer.m */,
-				307E72B52427C6F800E6ADA7 /* SVIndefiniteAnimatedView.h */,
-				307E72B62427C6F800E6ADA7 /* SVProgressHUD.h */,
-				307E72B72427C6F800E6ADA7 /* MBProgressHUD+NJ.m */,
-				307E72B82427C6F800E6ADA7 /* SVProgressHUD-Prefix.pch */,
-				307E72B92427C6F800E6ADA7 /* SVRadialGradientLayer.h */,
-				307E72BA2427C6F800E6ADA7 /* MBProgressHUD+NJ.h */,
-				307E72BB2427C6F800E6ADA7 /* SVProgressHUD.m */,
-				307E72BC2427C6F800E6ADA7 /* SVIndefiniteAnimatedView.m */,
-				307E72BD2427C6F800E6ADA7 /* SVProgressHUD.bundle */,
-			);
-			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		307E72C32427C87F00E6ADA7 /* 关于 */ = {
@@ -377,8 +344,8 @@
 				30BA5CEC2427D9BB002A4AAC /* KILoginViewController.h */,
 				30BA5CED2427D9BB002A4AAC /* KILoginViewController.m */,
 				30BA5CEE2427D9BB002A4AAC /* KILoginViewController.xib */,
-				30BA5CF32427E223002A4AAC /* KITextField.h */,
-				30BA5CF42427E223002A4AAC /* KITextField.m */,
+				30D586DE2436AAD100DDDF6E /* KITextField.h */,
+				30D586DF2436AAD100DDDF6E /* KITextField.m */,
 			);
 			path = "登陆";
 			sourceTree = "<group>";
@@ -425,10 +392,10 @@
 		30DB89A62424F85B005F7328 /* kibatina */ = {
 			isa = PBXGroup;
 			children = (
-				30BA5CEB2427D953002A4AAC /* 登陆 */,
-				307E72B22427C6F800E6ADA7 /* Tools */,
 				307E72852427AFAF00E6ADA7 /* 收支 */,
 				307E727F24278B8600E6ADA7 /* 家人 */,
+				30BA5CEB2427D953002A4AAC /* 登陆 */,
+				307E72B22427C6F800E6ADA7 /* Tools */,
 				307E727824277F4800E6ADA7 /* 导航控制器 */,
 				307E727524276A8300E6ADA7 /* 我的 */,
 				307E72732427664F00E6ADA7 /* appicon.png */,
@@ -518,7 +485,6 @@
 				30BA5CFB2427E9EE002A4AAC /* KIRegisterViewController.xib in Resources */,
 				307E729D2427B8DE00E6ADA7 /* setting@3x.png in Resources */,
 				30641849242B6F1200197164 /* balance_banner.png in Resources */,
-				307E72C22427C6F800E6ADA7 /* SVProgressHUD.bundle in Resources */,
 				307E728424278BA700E6ADA7 /* navi_add@3x.png in Resources */,
 				30641847242B6C7100197164 /* KIBalanceTableViewCell.xib in Resources */,
 				307E72C82427C89500E6ADA7 /* KIAboutViewController.xib in Resources */,
@@ -601,31 +567,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				307E72C72427C89500E6ADA7 /* KIAboutViewController.m in Sources */,
+				30FD1C07243757860097DA99 /* KIMessageTool.m in Sources */,
 				30BA5CEA2427CFA0002A4AAC /* UIAlertView+Block.m in Sources */,
 				30BA5D012428F4A8002A4AAC /* KIPrivacyViewCtrl.m in Sources */,
 				307E72962427B6DA00E6ADA7 /* KITableViewCell.m in Sources */,
 				3044FE7A242CFA9C0018128D /* SomeoneBalanceViewController.m in Sources */,
 				3064182F24297DC800197164 /* KIFamilyHeadView.m in Sources */,
 				30DB89BD2424F85D005F7328 /* main.m in Sources */,
-				30641858242BA25A00197164 /* CZPickerView.m in Sources */,
-				30BA5CF52427E223002A4AAC /* KITextField.m in Sources */,
 				307E727B24277F7200E6ADA7 /* MyNavigationController.m in Sources */,
-				307E72C02427C6F800E6ADA7 /* SVProgressHUD.m in Sources */,
 				30641846242B6C7100197164 /* KIBalanceTableViewCell.m in Sources */,
 				30BA5CEF2427D9BB002A4AAC /* KILoginViewController.m in Sources */,
 				307E72B02427C04700E6ADA7 /* KIFeedbackViewController.m in Sources */,
-				307E72C12427C6F800E6ADA7 /* SVIndefiniteAnimatedView.m in Sources */,
 				307E728224278B9E00E6ADA7 /* FamilyViewController.m in Sources */,
-				307E72BF2427C6F800E6ADA7 /* MBProgressHUD+NJ.m in Sources */,
 				30641854242B893800197164 /* KIAddBalanceViewController.m in Sources */,
 				30DB89A92424F85B005F7328 /* AppDelegate.m in Sources */,
 				30BA5CFA2427E9EE002A4AAC /* KIRegisterViewController.m in Sources */,
 				307E727E2427849300E6ADA7 /* UIImage+Color.m in Sources */,
-				307E72BE2427C6F800E6ADA7 /* SVRadialGradientLayer.m in Sources */,
 				307E72A92427BBEF00E6ADA7 /* KIHeadView.m in Sources */,
 				30DB89AC2424F85B005F7328 /* SceneDelegate.m in Sources */,
 				3064183D242A459C00197164 /* KIAddFamilyViewController.m in Sources */,
 				307E72882427AFAF00E6ADA7 /* BalanceViewController.m in Sources */,
+				30D586E02436AAD100DDDF6E /* KITextField.m in Sources */,
 				307E728B2427B37E00E6ADA7 /* MineViewController.m in Sources */,
 				3064183524297ED800197164 /* KIFamilyTableViewCell.m in Sources */,
 			);
@@ -777,6 +739,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sg31.kibatina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = com_sg31_kibatina_dis_20200326;
@@ -798,6 +761,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sg31.kibatina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = com_sg31_kibatina_dis_20200326;

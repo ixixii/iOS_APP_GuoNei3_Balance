@@ -33,6 +33,16 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,weak) IBOutlet UIImageView *xib_imageView_1;
 @property (nonatomic,weak) IBOutlet UIImageView *xib_imageView_2;
 @property (nonatomic,weak) IBOutlet UIImageView *xib_imageView_3;
+// -------------------------
+@property (nonatomic,weak) IBOutlet UIButton *xib_button_mask;
+@property (nonatomic,weak) IBOutlet UIButton *xib_button_cancel;
+@property (nonatomic,weak) IBOutlet UIButton *xib_button_confirm;
+@property (nonatomic,weak) IBOutlet UILabel *xib_label_toolbar;
+@property (nonatomic,weak) IBOutlet UIPickerView *xib_pickerView;
+
+- (IBAction)maskBtnClicked:(UIButton *)sender;
+- (IBAction)cancelBtnClicked:(UIButton *)sender;
+- (IBAction)confirmBtnClicked:(UIButton *)sender;
 @end
 
 NS_ASSUME_NONNULL_END

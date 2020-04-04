@@ -11,8 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface KIPrivacyViewCtrl : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *xib_webView;
+
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *xib_indicator;
 
+- (IBAction)closeBtnClicked:(UIButton *)sender;
 @end
 
 NS_ASSUME_NONNULL_END

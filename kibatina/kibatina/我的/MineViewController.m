@@ -9,9 +9,9 @@
 #import "MineViewController.h"
 #import "KITableViewCell.h"
 #import "KIHeadView.h"
-#import "MBProgressHUD+NJ.h"
 #import "UIAlertView+Block.h"
 #import "KILoginViewController.h"
+#import "KIMessageTool.h"
 
 #define kColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
@@ -48,12 +48,6 @@
     
     [self addTableView];
 }
-
-//- (void)viewWillAppear:(BOOL)animated
-//{
-//    [super viewWillAppear:animated];
-//    self.title = @"我的";
-//}
 
 - (void)resetTabBarItemTextColor
 {
@@ -183,13 +177,10 @@
                 UIAlertController *alertCtrl = [UIAlertController alertControllerWithTitle:@"提示" message:@"是否退出登陆？" preferredStyle:UIAlertControllerStyleAlert];
                 UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
                 UIAlertAction *confirmAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-                    
-                    [MBProgressHUD showMessage:@"请求中..."];
-                    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                        [MBProgressHUD hideHUD];
-                        [MBProgressHUD showSuccess:@"退出成功"];
+                    [KIMessageTool showKIMessage:@"请求中..."];
+                    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                        [KIMessageTool showKIMessage:@"退出成功"];
                         // 清除登陆状态
-                        // 根据用户上次选择的,展示
                         NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
                         [userDefault setBool:NO forKey:@"userDefault_isLogin"];
                         [userDefault synchronize];

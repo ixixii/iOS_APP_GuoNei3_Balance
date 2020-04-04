@@ -7,7 +7,7 @@
 //
 
 #import "KIAddFamilyViewController.h"
-#import "MBProgressHUD+NJ.h"
+#import "KIMessageTool.h"
 
 @interface KIAddFamilyViewController ()
 
@@ -22,32 +22,22 @@
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 - (void)addFamilyBtnClicked:(UIButton *)sender
 {
     if(_xib_textField_relation.text.length == 0){
-        [MBProgressHUD showError:@"请输入家人关系"];
+        [KIMessageTool showKIMessage:@"请输入家人关系"];
         return;
     }
     if(_xib_textField_habit.text.length == 0){
-        [MBProgressHUD showError:@"请输入消费习惯"];
+        [KIMessageTool showKIMessage:@"请输入消费习惯"];
         return;
     }
     if(_xib_textField_interest.text.length == 0){
-        [MBProgressHUD showError:@"请输入消费热点"];
+        [KIMessageTool showKIMessage:@"请输入消费热点"];
         return;
     }
     if(_xib_textField_desc.text.length == 0){
-        [MBProgressHUD showError:@"请输入家人描述"];
+        [KIMessageTool showKIMessage:@"请输入家人描述"];
         return;
     }
     // 存入本地plist
@@ -68,12 +58,10 @@
     [userDefault setObject:mArr forKey:@"userDefault_familyArr"];
     [userDefault synchronize];
     
-    [MBProgressHUD showMessage:@"提交中..."];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [MBProgressHUD hideHUD];
-        [MBProgressHUD showSuccess:@"添加成功"];
-        
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    [KIMessageTool showKIMessage:@"提交中..."];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [KIMessageTool showKIMessage:@"添加成功"];
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             [self.navigationController popViewControllerAnimated:YES];
         });
     });

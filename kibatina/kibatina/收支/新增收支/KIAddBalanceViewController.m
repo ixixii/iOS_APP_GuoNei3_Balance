@@ -7,21 +7,21 @@
 //
 
 #import "KIAddBalanceViewController.h"
-#import "CZPickerView.h"
 #import "CXDatePickerView.h"
-#import "MBProgressHUD+NJ.h"
+#import "KIMessageTool.h"
 
 #define kColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
 typedef NS_ENUM(NSInteger, pickerType){
-  pickerType_type = 0,
+  pickerType_type = 1,
   pickerType_faimily
 };
 
-@interface KIAddBalanceViewController ()<UITextFieldDelegate, CZPickerViewDelegate,CZPickerViewDataSource>
+@interface KIAddBalanceViewController ()<UITextFieldDelegate, UIPickerViewDataSource, UIPickerViewDelegate>
 {
     NSArray *_typeArr;
     NSArray *_familyArr;
+    NSInteger *_currentType;
 }
 @end
 
@@ -96,66 +96,6 @@ typedef NS_ENUM(NSInteger, pickerType){
         return NO;
     }
 }
-#pragma mark - 按钮事件
-- (void)btnTypeClicked:(UIButton *)sender
-{
-    [self.view endEditing:YES];
-    // 弹出选择框
-    CZPickerView *picker = [[CZPickerView alloc] initWithHeaderTitle:@"请选择收支分类"
-                                                       cancelButtonTitle:@"取消"
-                                                      confirmButtonTitle:@"确定"];
-        picker.checkMarkNeedless = YES;
-        picker.delegate = self;
-        picker.dataSource = self;
-    //    [picker setSelectedRows:@[@(_currentIndex)]];
-//            picker.needFooterView = YES;
-        //    picker.allowMultipleSelection = YES;
-        picker.tag = pickerType_type;
-        picker.tapBackgroundToDismiss = YES;
-        [picker show];
-}
-- (void)btnFamilyClicked:(UIButton *)sender
-{
-    [self.view endEditing:YES];
-    // 弹出选择框
-    CZPickerView *picker = [[CZPickerView alloc] initWithHeaderTitle:@"请选择所属家人"
-                                                       cancelButtonTitle:@"取消"
-                                                      confirmButtonTitle:@"确定"];
-        picker.checkMarkNeedless = YES;
-        picker.delegate = self;
-        picker.dataSource = self;
-        picker.tag = pickerType_faimily;
-    //    [picker setSelectedRows:@[@(_currentIndex)]];
-//            picker.needFooterView = YES;
-        //    picker.allowMultipleSelection = YES;
-        picker.tapBackgroundToDismiss = YES;
-        [picker show];
-}
-#pragma mark - CZPickerView datasource 和 delegate
-- (NSInteger)numberOfRowsInPickerView:(CZPickerView *)pickerView
-{
-    if(pickerView.tag == pickerType_type){
-        return _typeArr.count;
-    }
-    return _familyArr.count;
-}
-- (NSString *)czpickerView:(CZPickerView *)pickerView titleForRow:(NSInteger)row
-{
-    if(pickerView.tag == pickerType_type){
-        return _typeArr[row];
-    }
-    return [_familyArr[row] objectForKey:@"relation"];
-}
-- (void)czpickerView:(CZPickerView *)pickerView
-didConfirmWithItemAtRow:(NSInteger)row
-{
-    [pickerView setHidden:YES];
-    if(pickerView.tag == pickerType_type){
-        _xib_textField_type.text = _typeArr[row];
-    }else{
-        _xib_textField_family.text = [_familyArr[row] objectForKey:@"relation"];
-    }
-}
 
 #pragma mark - btn 事件
 - (void)btnDateClicked:(UIButton *)btn
@@ -176,32 +116,29 @@ didConfirmWithItemAtRow:(NSInteger)row
 #pragma mark - btn 事件
 - (void)addBtnClicked:(UIButton *)sender
 {
-    // 健壮性判断
     if(_xib_textField_name.text.length == 0){
-        [MBProgressHUD showError:@"收支名称不能为空"];
+        [KIMessageTool showKIMessage:@"收支名称不能为空"];
         return;
     }
     if(_xib_textField_type.text.length == 0){
-        [MBProgressHUD showError:@"收支分类不能为空"];
+        [KIMessageTool showKIMessage:@"收支分类不能为空"];
         return;
     }
     if(_xib_textField_amount.text.length == 0){
-        [MBProgressHUD showError:@"收支金额不能为空"];
+        [KIMessageTool showKIMessage:@"收支金额不能为空"];
         return;
     }
     if(_xib_textField_date.text.length == 0){
-        [MBProgressHUD showError:@"收支日期不能为空"];
+        [KIMessageTool showKIMessage:@"收支日期不能为空"];
         return;
     }
     if(_xib_textField_family.text.length == 0){
-        [MBProgressHUD showError:@"所属家人不能为空"];
+        [KIMessageTool showKIMessage:@"所属家人不能为空"];
         return;
     }
     
     NSString *tmpRemark = _xib_textField_remark.text;
     if(_xib_textField_remark.text.length == 0){
-//        [MBProgressHUD showError:@"备注描述不能为空"];
-//        return;
         tmpRemark = @"--";
     }
     
@@ -221,15 +158,140 @@ didConfirmWithItemAtRow:(NSInteger)row
     [mArr addObject:newBalance];
     [userDefault setObject:mArr forKey:@"userDefault_balanceArr"];
     [userDefault synchronize];
-    
-    [MBProgressHUD showMessage:@"提交中..."];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [MBProgressHUD hideHUD];
-        [MBProgressHUD showSuccess:@"添加成功"];
-        
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    [KIMessageTool showKIMessage:@"提交中..."];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [KIMessageTool showKIMessage:@"添加成功"];
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             [self.navigationController popViewControllerAnimated:YES];
         });
     });
 }
+
+#pragma mark - PickerView相关事件
+- (void)btnTypeClicked:(UIButton *)sender
+{
+    [self.view endEditing:YES];
+    _currentType = pickerType_type;
+    
+    _xib_button_mask.hidden = NO;
+    _xib_button_cancel.hidden = NO;
+    _xib_button_confirm.hidden = NO;
+    _xib_label_toolbar.hidden = NO;
+    _xib_pickerView.hidden = NO;
+    
+    _xib_label_toolbar.text = @"请选择收支分类";
+    
+    [_xib_pickerView reloadAllComponents];
+    
+}
+- (void)btnFamilyClicked:(UIButton *)sender
+{
+    [self.view endEditing:YES];
+    
+    _currentType = pickerType_faimily;
+    
+    _xib_button_mask.hidden = NO;
+    _xib_button_cancel.hidden = NO;
+    _xib_button_confirm.hidden = NO;
+    _xib_label_toolbar.hidden = NO;
+    _xib_pickerView.hidden = NO;
+    
+    _xib_label_toolbar.text = @"请选择所属家人";
+    
+    [_xib_pickerView reloadAllComponents];
+    
+}
+- (IBAction)maskBtnClicked:(UIButton *)sender
+{
+    [self abstract_hidePickView];
+}
+- (void)abstract_hidePickView
+{
+    _currentType = 0;
+    
+    _xib_button_mask.hidden = YES;
+    _xib_button_cancel.hidden = YES;
+    _xib_button_confirm.hidden = YES;
+    _xib_label_toolbar.hidden = YES;
+    _xib_pickerView.hidden = YES;
+    
+    _xib_label_toolbar.text = @"";
+}
+- (IBAction)cancelBtnClicked:(UIButton *)sender
+{
+    [self abstract_hidePickView];
+}
+- (IBAction)confirmBtnClicked:(UIButton *)sender
+{
+    // 先把当前的值取到
+    NSInteger row = [_xib_pickerView selectedRowInComponent:0];
+    if(_currentType == pickerType_type){
+        _xib_textField_type.text = _typeArr[row];
+    }
+    if(_currentType == pickerType_faimily){
+        _xib_textField_family.text = [_familyArr[row] objectForKey:@"relation"];
+    }
+    [self abstract_hidePickView];
+}
+
+#pragma mark - UIPickerView datasource 和 delegate
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
+{
+    return 1;
+}
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
+{
+    if(_currentType == pickerType_type){
+        return _typeArr.count;
+    }
+    if(_currentType == pickerType_faimily){
+        return _familyArr.count;
+    }
+    return 0;
+}
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
+{
+    if(_currentType == pickerType_type){
+        return _typeArr[row];
+    }
+    if(_currentType == pickerType_faimily){
+        return [_familyArr[row] objectForKey:@"relation"];
+    }
+    return @"";
+}
+- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
+{
+    if(_currentType == pickerType_type){
+        _xib_textField_type.text = _typeArr[row];
+    }
+    if(_currentType == pickerType_faimily){
+        _xib_textField_family.text = [_familyArr[row] objectForKey:@"relation"];
+    }
+}
+//- (NSInteger)numberOfRowsInPickerView:(CZPickerView *)pickerView
+//{
+//    if(pickerView.tag == pickerType_type){
+//        return _typeArr.count;
+//    }
+//    return _familyArr.count;
+//}
+//- (NSString *)czpickerView:(CZPickerView *)pickerView titleForRow:(NSInteger)row
+//{
+//    if(pickerView.tag == pickerType_type){
+//        return _typeArr[row];
+//    }
+//    return [_familyArr[row] objectForKey:@"relation"];
+//}
+//- (void)czpickerView:(CZPickerView *)pickerView
+//didConfirmWithItemAtRow:(NSInteger)row
+//{
+//    [pickerView setHidden:YES];
+//    if(pickerView.tag == pickerType_type){
+//        _xib_textField_type.text = _typeArr[row];
+//    }else{
+//        _xib_textField_family.text = [_familyArr[row] objectForKey:@"relation"];
+//    }
+//}
+
+
 @end

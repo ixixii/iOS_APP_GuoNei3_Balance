@@ -1,24 +1,20 @@
 PODS:
   - CXDatePickerView (0.1.8)
   - IQKeyboardManager (6.5.0)
-  - MBProgressHUD (0.9.2)
 
 DEPENDENCIES:
   - CXDatePickerView
   - IQKeyboardManager
-  - MBProgressHUD (~> 0.9.2)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - CXDatePickerView
     - IQKeyboardManager
-    - MBProgressHUD
 
 SPEC CHECKSUMS:
   CXDatePickerView: 450d8253290b5203427a6fe814060cc77199e4fa
   IQKeyboardManager: 700e5155d6a292383b54e8678aec769e14fc78fc
-  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
 
-PODFILE CHECKSUM: c5f38b2d41268d504a8163e9c59dbfde56082037
+PODFILE CHECKSUM: c53d029af5c01f16f56aa8c28d478f415d4b2f00
 
 COCOAPODS: 1.8.4

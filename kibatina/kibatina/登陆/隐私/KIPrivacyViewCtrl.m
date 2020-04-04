@@ -9,9 +9,6 @@
 #import "KIPrivacyViewCtrl.h"
 
 @interface KIPrivacyViewCtrl ()<UIWebViewDelegate>
-@property (weak, nonatomic) IBOutlet UIWebView *xib_webView;
-
-- (IBAction)closeBtnClicked:(UIButton *)sender;
 
 @end
 
